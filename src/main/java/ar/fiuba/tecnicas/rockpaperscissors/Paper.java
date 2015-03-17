@@ -10,4 +10,8 @@ public class Paper {
 		return this;
 	}
 
+	public Scissors vs(Scissors scissors) {
+		return scissors;
+	}
+
 }
