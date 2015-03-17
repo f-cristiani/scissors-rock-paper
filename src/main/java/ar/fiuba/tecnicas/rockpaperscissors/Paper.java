@@ -6,4 +6,8 @@ public class Paper {
 		return this;
 	}
 
+	public Paper vs(Paper paper) {
+		return this;
+	}
+
 }

@@ -13,4 +13,9 @@ public class PaperTest {
     public void paperBeatsRock() {
         assertEquals(paper, paper.vs(rock));
     }
+    
+    @Test
+    public void paperTieWithPaper() {
+        assertEquals(paper, paper.vs(paper));
+    }    
 }
